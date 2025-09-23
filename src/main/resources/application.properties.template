@@ -1,0 +1,9 @@
+spring.datasource.url=jdbc:sqlite:support-ai.db
+spring.datasource.driver-class-name=org.sqlite.JDBC
+spring.jpa.database-platform=org.hibernate.community.dialect.SQLiteDialect
+spring.jpa.hibernate.ddl-auto=update
+
+chatbot.ia.enabled=true
+chatbot.ia.api.key=YOUR_API_KEY
+chatbot.ia.api.url=https://api.deepseek.com/chat/completions
+server.port=8084
